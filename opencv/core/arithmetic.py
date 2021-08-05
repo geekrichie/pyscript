@@ -1,6 +1,6 @@
 import cv2 as cv
-img1 = cv.imread('messi5.jpg')
-img2 = cv.imread('opencv-logo-white.png')
+img1 = cv.imread('../image/messi5.jpg')
+img2 = cv.imread('../image/opencv-logo-white.png')
 
 # img2 = cv.resize(img2,(img1.shape[1], img1.shape[0]))
 # print(img1.shape,img2.shape)

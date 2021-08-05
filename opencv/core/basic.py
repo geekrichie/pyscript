@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 from matplotlib import pyplot as plt
-img = cv.imread("messi5.jpg",cv.IMREAD_UNCHANGED)
+img = cv.imread("../image/messi5.jpg",cv.IMREAD_UNCHANGED)
 
 # 根据x,y坐标获取像素值
 px = img[100,100]
