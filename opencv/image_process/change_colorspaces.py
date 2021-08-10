@@ -4,8 +4,8 @@ frame = cv.imread("../image/opencv-logo-white.png")
 print(frame.shape)
 hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
 # define range of blue color in HSV
-lower_blue = np.array([110,0,0])
-upper_blue = np.array([130,255,255])
+lower_blue = np.array([50,0,0])
+upper_blue = np.array([70,255,255])
 # Threshold the HSV image to get only blue colors
 mask = cv.inRange(hsv, lower_blue, upper_blue)
 # Bitwise-AND mask and original image
